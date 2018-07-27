@@ -1,6 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
-.view {
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+/*import custom fonts*/
+@font-face {
+    font-family: 'Lazer';
+    src: url('/assets/fonts/Lazer84.ttf');
+ }
+ @font-face {
+    font-family: 'good-times';
+    src: url('/assets/fonts/good-times-rg.ttf');
+ }
+
+ /* Header */
+.view, .main  {
+    background: url("assets/img/neonGrid.png")no-repeat center center;
     background-size: cover;
     height: 100vh;
 }
@@ -11,14 +22,78 @@
 .navbar {
     background-color: transparent;
 }
+.rgba-black-strong, .rgba-black-strong:after {
+    background-color: rgba(0, 0, 0, 0.1);
+}
 .top-nav-collapse {
-    background-color: #212529;
+    background-color: #000000;
 }
 @media only screen and (max-width: 768px) {
     .navbar {
-        background-color: #212529;
+        background-color: #000000;
     }
 }
-.font-bold {
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-family: good-times;
+}
+.full-bg-img .font-bold {
+    font-family: Lazer;
     font-weight: 500;
+}
+.full-bg-img .font-bold.display-2 {
+    font-size: 6.0rem !important;
+}
+.onTop {
+    margin-top: -0.5em;
+}
+.btn-blu {
+    background-color: #0bd3d3 !important;
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px !important;
+    border-radius: 35px;
+    font-size: 2em !important;
+    line-height: 1.33;
+}
+.btn-blu:hover { 
+    color: #d0d0d0 !important;
+}
+.pink-text {
+    color: #f890e7 !important;
+}
+/*Content*/
+/*headings*/
+.about h2, .contact h2 {
+    color: #0bd3d3;
+    font-family: good-times;
+}
+.clean {
+    padding-bottom: 2em;
+}
+/* EXP */
+.experience {
+    background-color: #d0d0d0;
+}
+.bq-warning {
+    border-left: 3px solid #f890e7 !important;
+}
+h4, h5 {
+    color: #000000;
+    font-family: good-times;
+}
+.progress-bar {
+    background-color: #f890e7;
+} 
+/* Contact */
+
+/* ME */
+ .my-face {
+    max-width: 250px;
+}
+
+/* FORM */
+.btn-cyan {
+    background-color: #0bd3d3 !important; 
+    font-family: good-times;
 }

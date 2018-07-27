@@ -1,3 +1,5 @@
+Personal portfolio site with Angular 6 and Material Design for Bootstrap
+
 # MdbAngularFree
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.5.

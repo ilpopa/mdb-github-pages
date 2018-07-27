@@ -1,21 +1,21 @@
 <header class="h-100"  id="home">
     <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav" [containerInside]="true">
         <mdb-navbar-brand>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" [ngx-scroll-to]="'#home'">
                 <img src="assets/img/header-brand.png" height="30" alt="">
             </a>     
         </mdb-navbar-brand>
         <links>
           <ul class="navbar-nav mr-auto">
             <li class="nav-item waves-light" mdbWavesEffect>
-              <a class="nav-link" href="#me">ME
+              <a class="nav-link" [ngx-scroll-to]="'#me'">ME
               </a>
             </li>
             <li class="nav-item waves-light" mdbWavesEffect>
-              <a class="nav-link" href="#exp">EXP</a>
+              <a class="nav-link" [ngx-scroll-to]="'#exp'">EXP</a>
             </li>
             <li class="nav-item waves-light" mdbWavesEffect>
-              <a class="nav-link" href="#contact">CONTACT</a>
+              <a class="nav-link" [ngx-scroll-to]="'#contact'">CONTACT</a>
             </li>
           </ul>
         </links>
@@ -31,7 +31,7 @@
                               <h1 class="display-1 mb-2 wow fadeInDown" data-wow-delay="0.3s"><a class="font-bold white-text">VILPPU</a> </h1>
                               <h1 class="display-1 mb-2 wow fadeInDown onTop" data-wow-delay="0.3s"> <a class="pink-text font-bold">SIMILÄ</a></h1>
                               <h3 class="font-up mb-3 mt-1 font-bold wow fadeInDown text-white" data-wow-delay="0.4s" >Web developer</h3>
-                              <a type="button" class="btn btn-blu btn-lg wow fadeInDown" data-wow-delay="0.4s" href="#me"><i class="fa fa-arrow-down"></i></a>
+                              <a type="button" class="btn btn-blu btn-lg wow fadeInDown" data-wow-delay="0.4s" [ngx-scroll-to]="'#me'"><i class="fa fa-arrow-down"></i></a>
                           </div>
                       </div>
                   </div>
